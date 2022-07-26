@@ -3,11 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <title>JOA</title>
+<link rel="stylesheet"  href="/javaStudy/workspace_web/JOA/assets/css/joa.css">
+
+<!-- 스타일시트자리 -->
+<style>
+	span {
+		font-size: 16px;
+	}
+
+	.main-text {
+		padding: 12px;
+		font-size: 14px;
+		}
+</style>
+
 </head>
 <body>
 
 	<header>
-		<div id="header">
+		<div id="main-header">
 			<h1>
 				<img src="C:\javaStudy\workspace_web\JOA\webapp\assets\images\joalogo.jpg" />
 			</h1>
@@ -15,37 +29,38 @@
 		<!-- /header -->
 		
 
-		<nav>
-			<div class="nav_depth" id="nav_menu">
-
-				<div id="nav-content">
-					<a href="/Map" class="Map_link"> <span class="Map_name"
-						data-hover>지도</span>
-					</a>
-				</div>
-
-				<div id="nav-content">
-					<a href="/Best" class="Best_link"> <span class="Best_name"
-						data-hover>베스트</span>
-					</a>
-				</div>
-
-				<div id="nav-content">
-					<a href="" class="Noticeboard_link"> <span
-						class="Noticeboard_name" data-hover>게시판</span>
-					</a>
-				</div>
-
-				<div id="nav-content">
-					<a href="" class="Noticeboard_link"> <span
-						class="Noticeboard_name" data-hover>함께하기</span>
-					</a>
-				</div>
-
+	<nav>
+		<div class="main-nav" id="main-navmenu">
+			
+			<div id="nav-content">
+				<a href="/Map" class="Map_link"> 
+				<span class="Map_name" data-hover>지도</span>
+				</a>
 			</div>
-		</nav>
-	</header>
+
+			<div id="nav-content">
+				<a href="/Best" class="Best_link"> <span class="Best_name"
+						data-hover>베스트</span>
+				</a>
+			</div>
+
+			<div id="nav-content">
+				<a href="" class="Noticeboard_link"> <span
+						class="Noticeboard_name" data-hover>게시판</span>
+				</a>
+			</div>
+
+			<div id="nav-content">
+				<a href="" class="Noticeboard_link"> <span
+						class="Noticeboard_name" data-hover>함께하기</span>
+				</a>
+			</div>
+
+		</div>
+	</nav>
 	<!-- /nav -->
+	</header>
+	
 	
 
 	<div>
@@ -66,18 +81,21 @@
 	<!-- /photo slider -->
 	
 
-	<div>
-		<p>살아 숨쉬는 자연에서 운동을 시작하다.</p>
-		<br>
-		<br>
-		<p>Joyful Outdoor Activity</p>
+	<div class="main-text">
+		<p>
+			<span>살아 숨쉬는 자연에서 운동을 시작하다.</span>
+		</p>
+		<br><br>
+		<p>
+			<span>Joyful Outdoor Activity</span>
+		</p>
 	</div>
 	<!-- /text -->
 	
 
 	<br>
 	<footer>
-		<div id="footer">
+		<div id="main-footer">
 			<p>주식회사 조아</p>
 			<p>대표 : 최보승</p>
 			<p>사업자 번호 : 123-456-789</p>
